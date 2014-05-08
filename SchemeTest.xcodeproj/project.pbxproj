@@ -32,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1FABEE47191B781F00FC267A /* SchemeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchemeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FABEE47191B781F00FC267A /* App Name DEBUG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Name DEBUG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FABEE4A191B781F00FC267A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FABEE4C191B781F00FC267A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1FABEE4E191B781F00FC267A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -87,7 +87,7 @@
 		1FABEE48191B781F00FC267A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FABEE47191B781F00FC267A /* SchemeTest.app */,
+				1FABEE47191B781F00FC267A /* App Name DEBUG.app */,
 				1FABEE62191B781F00FC267A /* SchemeTestTests.xctest */,
 			);
 			name = Products;
@@ -161,7 +161,7 @@
 			);
 			name = SchemeTest;
 			productName = SchemeTest;
-			productReference = 1FABEE47191B781F00FC267A /* SchemeTest.app */;
+			productReference = 1FABEE47191B781F00FC267A /* App Name DEBUG.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1FABEE61191B781F00FC267A /* SchemeTestTests */ = {
@@ -360,7 +360,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SchemeTest/SchemeTest-Prefix.pch";
 				INFOPLIST_FILE = "SchemeTest/SchemeTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "App Name DEBUG";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,7 +373,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SchemeTest/SchemeTest-Prefix.pch";
 				INFOPLIST_FILE = "SchemeTest/SchemeTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "App Name RELEASE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -437,6 +437,7 @@
 				1FABEE75191B781F00FC267A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FABEE76191B781F00FC267A /* Build configuration list for PBXNativeTarget "SchemeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +446,7 @@
 				1FABEE78191B781F00FC267A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
